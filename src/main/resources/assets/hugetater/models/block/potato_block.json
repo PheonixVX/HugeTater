@@ -1,0 +1,20 @@
+{
+	"textures": {
+		"0": "hugetater:block/potato_block",
+		"particle": "hugetater:block/potato_block"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 5],
+			"to": [12, 10, 10],
+			"faces": {
+				"north": {"uv": [4, 4, 7.999, 10.998], "texture": "#0"},
+				"east": {"uv": [4, 4, 7.999, 10.998], "texture": "#0"},
+				"south": {"uv": [4, 4, 7.999, 10.998], "texture": "#0"},
+				"west": {"uv": [4, 4, 7.999, 10.998], "texture": "#0"},
+				"up": {"uv": [4, 4, 7.999, 10.998], "texture": "#0"},
+				"down": {"uv": [4, 4, 7.999, 10.998], "texture": "#0"}
+			}
+		}
+	]
+}

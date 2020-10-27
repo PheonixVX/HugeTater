@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hugetater:block/potato_block"
+    }
+  }
+}

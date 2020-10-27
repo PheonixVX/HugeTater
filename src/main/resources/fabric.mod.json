@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hugetater",
+  "version": "${version}",
+  "name": "HugeTater",
+  "description": "",
+  "authors": [
+    "PheonixVX"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/HugeTater/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.pheonixvx.hugetater.client.HugeTaterClient"
+    ],
+    "main": [
+      "io.github.pheonixvx.hugetater.HugeTater"
+    ]
+  },
+  "mixins": [
+    "HugeTater.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.3+build.211",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
